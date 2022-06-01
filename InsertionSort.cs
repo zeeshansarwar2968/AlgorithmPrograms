@@ -20,7 +20,7 @@ namespace AlgorithmProblems
             string[] array = new string[size];
 
             //Taking in array elements from the user
-            Console.WriteLine("Please enter the string elements of array:");
+            Console.WriteLine("Please enter the string elements of array : ");
             for (int i = 0; i < size; i++)
             {
                 Console.Write("Enter Value : ");

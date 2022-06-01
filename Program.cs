@@ -8,7 +8,10 @@ namespace AlgorithmProblems
         {
             Console.WriteLine("\t\t\t\t\t Algorithm Problems");
             Console.WriteLine("\t\t---------------------------------------------------------------------");
-            Console.WriteLine("1 :: Insertion Sort Implementation");
+            Console.WriteLine("1 :: Insertion Sort Algorithm Implementation");
+            Console.WriteLine("2 :: Bubble Sort Algorithm Implementation");
+            Console.WriteLine("\t\t---------------------------------------------------------------------");
+
             Console.Write("Please Enter from the options above to start execution : ");
 
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -22,6 +25,11 @@ namespace AlgorithmProblems
                     Console.WriteLine();
                     InsertionSort insertionSort = new InsertionSort();
                     insertionSort.InsertionSortAlgo();
+                    break;
+                case 2:
+                    Console.WriteLine();
+                    BubbleSort bubbleSort = new BubbleSort();
+                    bubbleSort.BubbleSortAlgo();
                     break;
                 default:
                     break;
