@@ -10,6 +10,8 @@ namespace AlgorithmProblems
             Console.WriteLine("\t\t---------------------------------------------------------------------");
             Console.WriteLine("1 :: Insertion Sort Algorithm Implementation");
             Console.WriteLine("2 :: Bubble Sort Algorithm Implementation");
+            Console.WriteLine("3 :: Merge Sort Algorithm Implementation");
+
             Console.WriteLine("\t\t---------------------------------------------------------------------");
 
             Console.Write("Please Enter from the options above to start execution : ");
@@ -30,6 +32,11 @@ namespace AlgorithmProblems
                     Console.WriteLine();
                     BubbleSort bubbleSort = new BubbleSort();
                     bubbleSort.BubbleSortAlgo();
+                    break;
+                case 3:
+                    Console.WriteLine();
+                    MergeSort mergeSort = new MergeSort();
+                    mergeSort.Merge_Sort();
                     break;
                 default:
                     break;
