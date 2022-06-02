@@ -33,7 +33,7 @@ namespace AlgorithmProblems
             //Logical construct to sort the array
             for (int i = 0; (i < size && flag); i++)
             {
-                //flag is false, where it will skip the iteration if the inner loop is false and condition is not executed
+                //flag is false, where it will stop the iteration if the inner loop is false and condition is not executed
                 flag = false;
                 for(int j=0; j< size - 1; j++)
                 {
