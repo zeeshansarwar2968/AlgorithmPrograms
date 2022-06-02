@@ -63,6 +63,33 @@ namespace AlgorithmProblems
                         PrimesInRange primesInRange = new PrimesInRange();
                         primesInRange.FindPrimes();
                         break;
+                    case 7:
+                        Console.WriteLine();
+                        Console.Write("Enter First number : ");
+                        int input1 = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Enter Second Number :");
+                        int input2 = Convert.ToInt32(Console.ReadLine());
+                        int res1 = PrimesExtended.PrimeCheck(input1);
+                        int res2 = PrimesExtended.PrimeCheck(input2);
+                        bool AnagramResult = PrimesExtended.FindAnagram(Convert.ToString(input1), Convert.ToString(input2));
+                        bool Palindrome = PrimesExtended.PalindromeCheck(input1);
+                        if (AnagramResult)
+                        {
+                            Console.WriteLine("both values are anagrams");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Both the values are not anagrams");
+                        }
+                        if (Palindrome)
+                        {
+                            Console.WriteLine("Number is a palindrome well as an anagram");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Number is not a palindrome");
+                        }
+                        break;
                     default:
                         break;
                 }
