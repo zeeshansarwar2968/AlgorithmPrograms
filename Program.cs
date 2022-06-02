@@ -14,6 +14,7 @@ namespace AlgorithmProblems
             Console.WriteLine("4 :: Binary Search the Word from Word List");
             Console.WriteLine("5 :: Anagram Problem");
             Console.WriteLine("6 :: Find Primes in a specified range Problem");
+            Console.WriteLine("7 :: Extended Primes Check for palindrome and Anagram Problem");
 
 
             Console.WriteLine("\t\t---------------------------------------------------------------------");
