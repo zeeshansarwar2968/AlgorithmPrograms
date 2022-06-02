@@ -13,6 +13,8 @@ namespace AlgorithmProblems
             Console.WriteLine("3 :: Merge Sort Algorithm Implementation");
             Console.WriteLine("4 :: Binary Search the Word from Word List");
             Console.WriteLine("5 :: Anagram Problem");
+            Console.WriteLine("6 :: Find Primes in a specified range Problem");
+
 
             Console.WriteLine("\t\t---------------------------------------------------------------------");
 
@@ -55,6 +57,11 @@ namespace AlgorithmProblems
                     case 5:
                         Console.WriteLine();
                         Anagram.FindAnagram();
+                        break;
+                    case 6:
+                        Console.WriteLine();
+                        PrimesInRange primesInRange = new PrimesInRange();
+                        primesInRange.FindPrimes();
                         break;
                     default:
                         break;
