@@ -12,6 +12,7 @@ namespace AlgorithmProblems
             Console.WriteLine("2 :: Bubble Sort Algorithm Implementation");
             Console.WriteLine("3 :: Merge Sort Algorithm Implementation");
             Console.WriteLine("4 :: Binary Search the Word from Word List");
+            Console.WriteLine("5 :: Anagram Problem");
 
             Console.WriteLine("\t\t---------------------------------------------------------------------");
 
@@ -48,12 +49,12 @@ namespace AlgorithmProblems
                         string text1 = "Welcome to Algorithm Programs Problem Statement";
                         List<string> words = new List<string>(text1.Split());
                         words.Sort();
-                        //foreach (var item in words)
-                        //{
-                        //    Console.WriteLine(item);
-                        //}
                         //BinarySearchWord searchWord = new BinarySearchWord();
                         BinarySearchWord.Search(words);
+                        break;
+                    case 5:
+                        Console.WriteLine();
+                        Anagram.FindAnagram();
                         break;
                     default:
                         break;
